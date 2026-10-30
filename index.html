@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Science Simulations</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen font-sans flex flex-col justify-center items-center p-6">
+  
+  <div class="max-w-4xl w-full text-center space-y-8">
+    <header class="space-y-3">
+      <h1 class="text-4xl md:text-5xl font-extrabold text-blue-400">Interactive Science Simulations</h1>
+      <p class="text-slate-400 text-lg max-w-xl mx-auto">
+        Explore interactive visual simulations designed for high school and introductory science concepts.
+      </p>
+    </header>
+
+    <!-- Navigation Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+      
+      <!-- Physics Card -->
+      <a href="https://luckiphysics.github.io/PhysicsSims/" class="group bg-slate-800 border border-slate-700 hover:border-blue-500 rounded-2xl p-8 transition-all hover:-translate-y-1 shadow-xl flex flex-col items-center justify-between text-center">
+        <div>
+          <div class="w-16 h-16 bg-blue-500/10 text-blue-400 rounded-2xl flex items-center justify-center text-3xl mb-4 mx-auto group-hover:scale-110 transition-transform">
+            ⚡
+          </div>
+          <h2 class="text-2xl font-bold text-white group-hover:text-blue-400 transition-colors">Physics Simulations</h2>
+          <p class="text-slate-400 text-sm mt-2">
+            Explore kinematics, forces, energy, circuits, and wave phenomena.
+          </p>
+        </div>
+        <span class="mt-6 inline-flex items-center text-sm font-semibold text-blue-400 group-hover:underline">
+          Launch Physics Sims &rarr;
+        </span>
+      </a>
+
+      <!-- Chemistry Card -->
+      <a href="https://luckiphysics.github.io/ChemistrySims/" class="group bg-slate-800 border border-slate-700 hover:border-emerald-500 rounded-2xl p-8 transition-all hover:-translate-y-1 shadow-xl flex flex-col items-center justify-between text-center">
+        <div>
+          <div class="w-16 h-16 bg-emerald-500/10 text-emerald-400 rounded-2xl flex items-center justify-center text-3xl mb-4 mx-auto group-hover:scale-110 transition-transform">
+            🧪
+          </div>
+          <h2 class="text-2xl font-bold text-white group-hover:text-emerald-400 transition-colors">Chemistry Simulations</h2>
+          <p class="text-slate-400 text-sm mt-2">
+            Explore stoichiometry, limiting reactants, solutions, and molecular reactions.
+          </p>
+        </div>
+        <span class="mt-6 inline-flex items-center text-sm font-semibold text-emerald-400 group-hover:underline">
+          Launch Chemistry Sims &rarr;
+        </span>
+      </a>
+
+    </div>
+  </div>
+
+</body>
+</html>
